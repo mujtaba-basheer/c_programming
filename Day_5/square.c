@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+// function to reverse a number
+int Rev(int n)
+{
+    int rev = 0, d;
+    while(n > 0)
+    {
+        d = n % 10;
+        rev = rev * 10 + d;
+        n /= 10;
+    }
+    return rev;
+}
+
+// main method
+void main(void)
+{
+    int i, j;
+    for(i = 10; i < 100; i++)
+    {
+        // starting j from i + 1 to avoid repititive pairs
+        for(j = i + 1; j <= 100; j++)
+        {
+            // checking if numbers are reverse of each other
+            if(i == Rev(j))
+            {
+                // checking if their squares are reverse of each other
+                if((i * i) == Rev(j * j))
+                    printf("%d\t%d\n%d\t%d\n\n", i, j, i * i, j * j);
+
+                // breaking out on finding pair to reduce runtime
+                break;
+            }
+        }
+    }
+
+    return;
+}

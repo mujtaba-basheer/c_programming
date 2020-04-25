@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+void main(void) {
+    float number;
+    int num;
+
+    // Taking assigning value to 'number'
+    number = 34.5678;
+
+    // Printing original number
+    printf("Original number: %f\n", number);
+
+    // Printing rounded-off values
+    num = (int)(number + 0.5);
+    printf("Number rounded off to nearest integer: %d\n", num);
+    printf("Number rounded off to two decimal places: %.2f\n", number);
+}
+
+Original number: 34.567799
+Number rounded off to nearest integer: 35
+Number rounded off to two decimal places: 34.57
