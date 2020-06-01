@@ -1,0 +1,24 @@
+Employee Number:	89495499395633
+Employee Name:	Mujtaba Basheer
+Department:	Computer Science
+Basic Pay:	60000.000000
+DA:	6000.000000
+HRA:	24000.000000
+Gross Salary:	126000.00
+
+Employee Number:	89495499395633
+Employee Name:	Shadab Danish
+Department:	Bio Technology
+Basic Pay:	70000.000000
+DA:	7000.000000
+HRA:	28000.000000
+Gross Salary:	147000.00
+
+Employee Number:	89495499395633
+Employee Name:	Unnat Agarwal
+Department:	Mechanical
+Basic Pay:	70000.000000
+DA:	7000.000000
+HRA:	28000.000000
+Gross Salary:	147000.00
+
